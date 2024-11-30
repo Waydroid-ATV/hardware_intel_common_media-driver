@@ -39,6 +39,8 @@ common_cflags = [
     "-fexceptions",
     "-fcheck-new",
     "-Werror",
+    "-Wno-unused-parameter",
+    "-Wno-missing-field-initializers",
     "-Wno-unknown-pragmas",
     "-Wno-comments",
     "-Wno-attributes",
