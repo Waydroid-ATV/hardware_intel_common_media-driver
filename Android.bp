@@ -126,6 +126,7 @@ common_cflags = [
 
 cc_library_shared {
     name: "iHD_drv_video",
+    relative_install_path: "dri",
 
     srcs: [
         "media_softlet/agnostic/Xe2_M_plus/Xe2_LPM/codec/hal/dec/vvc/packet/decode_vvc_s2l_packet_xe2_lpm_base.cpp",
